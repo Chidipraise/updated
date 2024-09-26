@@ -78,6 +78,3 @@ window.addEventListener('scroll', () => {
     isScrolling = true;
 });
 
-function handleScroll() {
-    // Your scroll logic here (same as the code you already have)
-}

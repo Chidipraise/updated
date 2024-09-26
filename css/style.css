@@ -768,7 +768,12 @@ span{
 }
  
  
-@media (max-width: 371px) {
+@media (max-width: 375px) and (max-width: 812px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+      }
+
      .home{
          justify-content: center;
      
@@ -782,6 +787,12 @@ span{
      .home-content h1 {
          font-size: 5rem;
      }
+     /* .home-sci a {
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+     } */
 }
   
 @keyframes homeBgText {
