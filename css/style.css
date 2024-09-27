@@ -772,34 +772,35 @@ span{
          text-align: center;
      }
 }
- 
- 
-@media (max-width: 375px) and (max-width: 812px) {
+
+@media (min-width: 375px) and (max-width: 812px) {
     body {
         font-size: 16px;
         padding: 10px;
-      }
+    }
 
-     .home{
-         justify-content: center;
-     
-     }
-     .home-content{
-         display: flex;
-         align-items: center;
-         flex-direction: column;
-         text-align: center;
-     }
-     .home-content h1 {
-         font-size: 5rem;
-     }
-     /* .home-sci a {
-        position: relative;
+    .home {
+        justify-content: center;
+    }
+    
+    .home-content {
+        display: flex;
         align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-sci {
         display: flex;
         justify-content: center;
-     } */
+        margin-top: 30px;
+    }
 }
+
   
 @keyframes homeBgText {
      0%,
